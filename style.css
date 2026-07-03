@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.in-text{
+   margin: 8px;
+ border-color: black;
+ border-radius: 5px;
+ border-style: double;
+ font-weight: bolder;
+ padding:5px;
+ 
+}
+.in-num{
+    margin: 8px;
+ border-color: black;
+ border-radius: 5px;
+ border-style: double;
+ padding: 5px;
+font-weight: bolder;
+
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px  gray;
+}
+
+.title{
+    margin: 8px;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+.label1{
+    margin-left:10px;
+    padding-left: 5px;
+    color:rgb(0, 0, 0);
+
+}
+.label2{
+    color: black;
+}
+input::placeholder{
+    color: black;
+}
+.error{
+    border: 2PX double red;
+    
+    
+}
+.error::placeholder{
+    color: red;
+}
+
+.del{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    margin: 5px;
+    border: 2px double black ;
+    border-radius:6px;
+    padding: 4px;
+    box-shadow: 0px 0px 10px  gray;
+      margin-left: 10px;
+    vertical-align: middle;
+
+}
+input:focus{
+    outline: none;
+    border: 2px solid blue  ;
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 241, 227);
+   
+}
+.list{
+    padding:5px;
+    margin: 5px ;
+    font-size: 20px;
+
+      color:rgb(68, 0, 255);
+    font-size:20px;
+}
+.edit{
+    margin: 10px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+    border-radius: 8px;
+
+}
+.btn:hover,
+.edit:hover,
+.del:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.btn,
+.edit,
+.del,
+input{
+    transition: 0.3s;
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px gray;
+    margin: 10px;
+}
+.btn{
+    width: 500px;
+    margin: 5px;
+    margin-left: 25px;
+}
